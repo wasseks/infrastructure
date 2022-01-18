@@ -1,0 +1,21 @@
+[2022-01-18 13:31:03.991] [exthost] [info] Extension host with pid 2671 started
+[2022-01-18 13:31:04.002] [exthost] [error] Error: EEXIST: file already exists, open '/home/akimkinwa/.vscode-server/data/User/workspaceStorage/889cce2fc7cf665e2e09c53a5349b3b5/vscode.lock'
+[2022-01-18 13:31:04.017] [exthost] [info] Lock '/home/akimkinwa/.vscode-server/data/User/workspaceStorage/889cce2fc7cf665e2e09c53a5349b3b5/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-01-18 13:31:04.022] [exthost] [info] Lock '/home/akimkinwa/.vscode-server/data/User/workspaceStorage/889cce2fc7cf665e2e09c53a5349b3b5/vscode.lock': The pid 1591 appears to be gone.
+[2022-01-18 13:31:04.022] [exthost] [info] Lock '/home/akimkinwa/.vscode-server/data/User/workspaceStorage/889cce2fc7cf665e2e09c53a5349b3b5/vscode.lock': Deleting a stale lock.
+[2022-01-18 13:31:04.041] [exthost] [info] Lock '/home/akimkinwa/.vscode-server/data/User/workspaceStorage/889cce2fc7cf665e2e09c53a5349b3b5/vscode.lock': Lock acquired.
+[2022-01-18 13:31:04.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2022-01-18 13:31:04.210] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-18 13:31:04.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-18 13:31:04.827] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-18 13:31:04.959] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-18 13:31:05.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-18 13:31:05.598] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-18 13:31:05.606] [exthost] [info] Eager extensions activated
+[2022-01-18 13:33:55.676] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+[2022-01-18 13:42:51.994] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2933
+[2022-01-18 13:42:55.280] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2933
+[2022-01-18 13:46:57.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-18 14:07:17.355] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-01-18 14:07:17.357] [exthost] [info] Lock '/home/akimkinwa/.vscode-server/data/User/workspaceStorage/889cce2fc7cf665e2e09c53a5349b3b5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-01-18 14:07:17.480] [exthost] [info] Extension host with pid 2671 exiting with code 0

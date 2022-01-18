@@ -1,0 +1,29 @@
+[2022-01-18 01:50:56.881] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2022-01-18 01:50:56.881] [remoteagent] [info] Extension host agent started.
+[2022-01-18 01:50:57.122] [remoteagent] [info] [127.0.0.1][7679b2db][ExtensionHostConnection] New connection established.
+[2022-01-18 01:50:57.123] [remoteagent] [info] [127.0.0.1][84c5d28d][ManagementConnection] New connection established.
+[2022-01-18 01:50:57.138] [remoteagent] [info] [127.0.0.1][7679b2db][ExtensionHostConnection] <1463> Launched Extension Host Process.
+[2022-01-18 01:53:18.777] [remoteagent] [info] [127.0.0.1][84c5d28d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-01-18 01:53:18.810] [remoteagent] [info] [127.0.0.1][7679b2db][ExtensionHostConnection] <1463> Extension Host Process exited with code: 0, signal: null.
+[2022-01-18 01:53:18.812] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-01-18 01:53:34.815] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-01-18 01:53:34.815] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-01-18 01:53:35.017] [remoteagent] [info] [127.0.0.1][fcba754b][ManagementConnection] New connection established.
+[2022-01-18 01:53:35.023] [remoteagent] [info] [127.0.0.1][8ffea240][ExtensionHostConnection] New connection established.
+[2022-01-18 01:53:35.033] [remoteagent] [info] [127.0.0.1][8ffea240][ExtensionHostConnection] <1591> Launched Extension Host Process.
+[2022-01-18 01:58:34.817] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-01-18 02:20:56.956] [remoteagent] [info] Installing extension: ms-azuretools.vscode-docker
+[2022-01-18 02:20:59.397] [remoteagent] [info] Downloaded extension: ms-azuretools.vscode-docker /home/akimkinwa/.vscode-server/data/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.18.0
+[2022-01-18 02:20:59.670] [remoteagent] [info] Extracted extension to /home/akimkinwa/.vscode-server/extensions/.49f61c4f-020c-4598-943f-69ca9d3807fd: ms-azuretools.vscode-docker
+[2022-01-18 02:20:59.681] [remoteagent] [info] Renamed to /home/akimkinwa/.vscode-server/extensions/ms-azuretools.vscode-docker-1.18.0
+[2022-01-18 02:20:59.685] [remoteagent] [info] Extracting completed. ms-azuretools.vscode-docker
+[2022-01-18 02:20:59.685] [remoteagent] [info] Extension installed successfully: ms-azuretools.vscode-docker

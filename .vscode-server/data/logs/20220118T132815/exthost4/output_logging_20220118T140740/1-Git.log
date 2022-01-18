@@ -1,0 +1,1793 @@
+Validating found git in: git
+Using git 2.9.5 from git
+> git rev-parse --git-dir
+Open repository: /home/akimkinwa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:docker-compose.yml
+> git ls-tree -l HEAD -- /home/akimkinwa/docker-compose.yml
+> git show --textconv HEAD:Dockerfile
+> git ls-tree -l HEAD -- /home/akimkinwa/Dockerfile
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git push origin master:master
+To https://github.com/wasseks/infrastructure.git
+ * [new branch]      master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git show --textconv HEAD:reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+From https://github.com/wasseks/infrastructure
+ * branch            master     -> FETCH_HEAD
+> git push origin master:master
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git show --textconv HEAD:reg_dump.sql
+To https://github.com/wasseks/infrastructure.git
+   031beb7..b0b40da  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git show --textconv HEAD:reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git push origin master:master
+remote: Repository not found.
+fatal: repository 'https://github.com/wasseks/infrastructure.git/' not found
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git remote remove origin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git show --textconv HEAD:reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv HEAD:reg_dump.sql
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv HEAD:reg_dump.sql
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv HEAD:reg_dump.sql
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv HEAD:reg_dump.sql
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv HEAD:reg_dump.sql
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+Opening repository for path='/home/akimkinwa/' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /home/akimkinwa
+> git status -z -u
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git show --textconv :reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git show --textconv :reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git show --textconv :reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git show --textconv :reg_dump.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git show --textconv :reg_dump.sql
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git show --textconv :Dockerfile
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git show --textconv :docker-compose.yml
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 5901993a4439ead8fb50aa31e22583653c8ae052
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git cat-file -s 5280e0ad827dc0abb41c293aeb08b142ad1ee351
+> git show --textconv :create_infrastructure.sh
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git cat-file -s 5280e0ad827dc0abb41c293aeb08b142ad1ee351
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry master...master@{upstream} --
+fatal: no upstream configured for branch 'master'
+> git pull --tags
+fatal: No remote repository specified.  Please, specify either a URL or a
+remote name from which new revisions should be fetched.
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :Dockerfile
+> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git cat-file -s b2327d97a71b1fa664998b102e3f1495e3b587cc
+> git ls-tree -l HEAD -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git cat-file -s b2327d97a71b1fa664998b102e3f1495e3b587cc
+> git show --textconv HEAD:.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/exthost.log
+> git check-ignore -v -z --stdin
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+> git ls-files --stage -- /home/akimkinwa/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+> git show --textconv :docker-compose.yml
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :create_infrastructure.sh
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/create_infrastructure.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s 00a733ec6aa623df81908a5347e25e1c881f37f0
+> git show --textconv :create_infrastructure.sh
+> git show --textconv :.vscode-server/data/logs/20220118T132815/remoteagent.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/remoteagent.log
+> git cat-file -s 135e48d3b8df98f908869281b95e30fcd3a72b94
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/remoteagent.log
+> git cat-file -s 135e48d3b8df98f908869281b95e30fcd3a72b94
+> git show --textconv :.vscode-server/data/logs/20220118T132815/remoteagent.log
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git cat-file -s 652423ce0f61ecea1a0455e62a3621edd09a7a8c
+> git show --textconv :.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+> git ls-files --stage -- /home/akimkinwa/.vscode-server/data/logs/20220118T132815/exthost4/output_logging_20220118T140740/1-Git.log
+fatal: Not a git repository (or any of the parent directories): .git
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git init
+> git rev-parse --git-dir
+Open repository: /home/akimkinwa
+> git status -z -u
+> git add -A -- .
+fatal: Unable to create '/home/akimkinwa/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git add -A -- .
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git check-ignore -v -z --stdin
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git symbolic-ref --short HEAD
+> git remote add origin https://github.com/wasseks/infrastructure.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push -u origin master
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv :.gitignore
+To https://github.com/wasseks/infrastructure.git
+ * [new branch]      master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+Opening repository for path='/home/akimkinwa/' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git init
+> git rev-parse --git-dir
+Open repository: /home/akimkinwa
+> git status -z -u
+> git add -A -- .
+fatal: Unable to create '/home/akimkinwa/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git add -A -- .
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git check-ignore -v -z --stdin
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git symbolic-ref --short HEAD
+> git remote add origin https://github.com/wasseks/infrastructure.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push -u origin master
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv :.gitignore
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/.gitignore
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitconfig
+> git ls-files --stage -- /home/akimkinwa/.gitconfig
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+To https://github.com/wasseks/infrastructure.git
+ * [new branch]      master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s cd628c59e3646ac0628fb93f84bd0633cc5513ae
+> git show --textconv :.gitignore
+> git show --textconv :.gitconfig
+> git ls-files --stage -- /home/akimkinwa/.gitconfig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+Opening repository for path='/home/akimkinwa/' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git init
+> git rev-parse --git-dir
+Open repository: /home/akimkinwa
+> git status -z -u
+> git add -A -- .
+> git symbolic-ref --short HEAD
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git symbolic-ref --short HEAD
+> git remote add origin https://github.com/wasseks/infrastructure.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push -u origin master
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/akimkinwa/.gitconfig
+> git show --textconv :.gitconfig
+To https://github.com/wasseks/infrastructure.git
+ * [new branch]      master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/akimkinwa/.gitconfig
+> git show --textconv :.gitconfig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/.gitconfig
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s 1c9af05806907da161a4b97e6254bb0e195bb5c5
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git cat-file -s 5280e0ad827dc0abb41c293aeb08b142ad1ee351
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :create_infrastructure.sh
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s c4c10fadc6bba0968b3dbee43c331c712f001018
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/reg_dump.sql
+> git cat-file -s 5280e0ad827dc0abb41c293aeb08b142ad1ee351
+> git show --textconv :create_infrastructure.sh
+> git ls-files --stage -- /home/akimkinwa/create_infrastructure.sh
+> git cat-file -s c4c10fadc6bba0968b3dbee43c331c712f001018
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/.gitignore
+> git cat-file -s 1c9af05806907da161a4b97e6254bb0e195bb5c5
+> git check-ignore -v -z --stdin
+> git status -z -u
+Opening repository for path='/home/akimkinwa/' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /home/akimkinwa/infrastructure
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/akimkinwa/infrastructure/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/akimkinwa/infrastructure/.gitignore
+> git cat-file -s 1c9af05806907da161a4b97e6254bb0e195bb5c5
+> git check-ignore -v -z --stdin
+> git show --textconv :create_infrastructure.sh
+> git ls-files --stage -- /home/akimkinwa/infrastructure/create_infrastructure.sh
+> git cat-file -s c4c10fadc6bba0968b3dbee43c331c712f001018
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/infrastructure/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/akimkinwa/infrastructure/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/infrastructure/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/infrastructure/reg_dump.sql
+> git cat-file -s 5280e0ad827dc0abb41c293aeb08b142ad1ee351
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/akimkinwa/infrastructure/Dockerfile
+> git cat-file -s 0701543dd27dadb90f5a5769c7ba3f32d87446ef
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/akimkinwa/infrastructure/docker-compose.yml
+> git cat-file -s e44ac75266c92079de794e9fce761f1c01ae2946
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/akimkinwa/infrastructure/docker-compose.yml
+> git check-ignore -v -z --stdin
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git show --textconv :reg_dump.sql
+> git ls-files --stage -- /home/akimkinwa/infrastructure/reg_dump.sql
+> git cat-file -s 5280e0ad827dc0abb41c293aeb08b142ad1ee351
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git show --textconv :create_infrastructure.sh
+> git ls-files --stage -- /home/akimkinwa/infrastructure/create_infrastructure.sh
+> git cat-file -s c4c10fadc6bba0968b3dbee43c331c712f001018
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+> git status -z -u
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa/infrastructure' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/akimkinwa' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}

@@ -1,0 +1,65 @@
+[2022-01-18 13:28:15.864] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2022-01-18 13:28:15.864] [remoteagent] [info] Extension host agent started.
+[2022-01-18 13:28:16.112] [remoteagent] [info] [127.0.0.1][bf1f36dd][ManagementConnection] New connection established.
+[2022-01-18 13:28:16.119] [remoteagent] [info] [127.0.0.1][2a3fb4be][ExtensionHostConnection] New connection established.
+[2022-01-18 13:28:16.136] [remoteagent] [info] [127.0.0.1][2a3fb4be][ExtensionHostConnection] <1780> Launched Extension Host Process.
+[2022-01-18 13:30:58.278] [remoteagent] [info] [127.0.0.1][bf1f36dd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-01-18 13:30:58.289] [remoteagent] [info] [127.0.0.1][2a3fb4be][ExtensionHostConnection] <1780> Extension Host Process exited with code: 0, signal: null.
+[2022-01-18 13:30:58.291] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-01-18 13:31:01.913] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-01-18 13:31:01.913] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-01-18 13:31:02.011] [remoteagent] [info] [127.0.0.1][9353f3d6][ManagementConnection] New connection established.
+[2022-01-18 13:31:02.025] [remoteagent] [info] [127.0.0.1][e9be7332][ExtensionHostConnection] New connection established.
+[2022-01-18 13:31:02.046] [remoteagent] [info] [127.0.0.1][e9be7332][ExtensionHostConnection] <2671> Launched Extension Host Process.
+[2022-01-18 13:31:02.852] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 13:31:02.853] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 13:31:03.109] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 13:31:03.110] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 13:31:03.242] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 13:31:03.242] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 13:31:03.367] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 13:31:03.368] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 13:31:03.506] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 13:31:03.506] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 13:31:03.692] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 13:31:03.693] [remoteagent] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-01-18 13:36:01.921] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-01-18 14:07:17.360] [remoteagent] [info] [127.0.0.1][9353f3d6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-01-18 14:07:17.522] [remoteagent] [info] [127.0.0.1][e9be7332][ExtensionHostConnection] <2671> Extension Host Process exited with code: 0, signal: null.
+[2022-01-18 14:07:17.523] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-01-18 14:07:27.568] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-01-18 14:07:27.568] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-01-18 14:07:27.647] [remoteagent] [info] [127.0.0.1][29519495][ManagementConnection] New connection established.
+[2022-01-18 14:07:27.660] [remoteagent] [info] [127.0.0.1][abc65c4e][ExtensionHostConnection] New connection established.
+[2022-01-18 14:07:27.670] [remoteagent] [info] [127.0.0.1][abc65c4e][ExtensionHostConnection] <9897> Launched Extension Host Process.
+[2022-01-18 14:07:35.667] [remoteagent] [info] [127.0.0.1][29519495][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-01-18 14:07:35.734] [remoteagent] [info] [127.0.0.1][abc65c4e][ExtensionHostConnection] <9897> Extension Host Process exited with code: 0, signal: null.
+[2022-01-18 14:07:35.734] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-01-18 14:07:35.734] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-01-18 14:07:38.993] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-01-18 14:07:38.993] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-01-18 14:07:39.079] [remoteagent] [info] [127.0.0.1][67270f77][ManagementConnection] New connection established.
+[2022-01-18 14:07:39.082] [remoteagent] [info] [127.0.0.1][eeb1cc05][ExtensionHostConnection] New connection established.
+[2022-01-18 14:07:39.097] [remoteagent] [info] [127.0.0.1][eeb1cc05][ExtensionHostConnection] <10027> Launched Extension Host Process.
+[2022-01-18 14:07:39.699] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 14:07:39.700] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 14:07:39.882] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 14:07:39.883] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 14:07:40.008] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 14:07:40.008] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 14:07:40.140] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 14:07:40.140] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 14:07:40.361] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 14:07:40.361] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-18 14:07:40.744] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/akimkinwa)
+[2022-01-18 14:07:40.744] [remoteagent] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-01-18 14:12:38.994] [remoteagent] [info] New EH opened, aborting shutdown
